@@ -144,3 +144,99 @@ footer {
     position: sticky;
     top: 100%;
 }
+
+.lightbox {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.85);
+    background-repeat: no-repeat;
+    background-size: 80vh;
+    background-position: 40px bottom;
+    display: none;
+}
+
+#dexter_morgan {
+    background-image: url(../images/dexter-morgan.webp);
+}
+
+#debra-morgan {
+    background-image: url(../images/debra-morgan.webp);
+    background-position: right 40px bottom;
+}
+
+#brian-moser {
+    background-image: url(../images/brian-moser.webp);
+}
+
+#harry-morgan {
+    background-image: url(../images/harry-morgan.webp);
+    background-position: right 40px bottom;
+}
+
+#rita-bennett {
+    background-image: url(../images/rita-bennett.webp);
+}
+
+#james-doakes {
+    background-image: url(../images/james-doakes.webp);
+    background-position: right 40px bottom;
+}
+
+#maria-laguerta {
+    background-image: url(../images/maria-laguerta.webp);
+}
+
+#angel-batista {
+    background-image: url(../images/angel-batista.webp);
+    background-position: right 40px bottom;
+}
+
+#vince-masuka {
+    background-image: url(../images/vince-masuka.webp);
+}
+
+.lightbox_close {
+    position: absolute;
+    top: 20px;
+    right: 5%;
+    color: #fff;
+    font-size: 36px;
+    text-decoration: none;
+    font-weight: bolder;
+    transition: all .5s ease-in-out;
+}
+
+.lightbox_close:hover {
+    opacity: 0.5;
+    color: red;
+}
+
+.lightbox article {
+    width: 55%;
+    margin-left: 40%;
+    padding-top: 50px;
+}
+
+#debra-morgan article,
+#harry-morgan article, 
+#james-doakes article, 
+#angel-batista article {
+    margin-left: 0;
+    margin-right: 40%;
+}
+
+.lb_text,
+.lb_heading {
+    text-align: justify;
+}
+
+.lb_text {
+    line-height: 26px;
+}
+
+.lightbox:target {
+    display: block;
+}
