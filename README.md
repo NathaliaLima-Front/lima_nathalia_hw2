@@ -4,6 +4,8 @@ This repo is for homework 2 - Character build (CSS selection and styles)
 ___
 
 ## Theme: TV series Dexter
+![Dexter Characters](images/cast.jpg)
+
 This series is very interesting despite seeming very violent (which it is).
 
 I've always liked the theme of the series, because it helps us understand people's minds a little better.
